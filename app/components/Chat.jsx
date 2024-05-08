@@ -3,7 +3,7 @@
 import React from "react";
 import Message from "./Message.jsx";
 import Input from "./Input.jsx";
-import { fetchOpenAI, fetchAnonymizeData } from "../api.js";
+import { fetchOpenAI, fetchAnonymizeData } from "../Api.js";
 import { useState } from "react";
 
 export default function Chat() {

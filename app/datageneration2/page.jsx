@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { dataEntities } from "../api.js";
+import { dataEntities } from "../Api.js";
 
 export default function Dataset() {
   const [file, setFile] = useState();
